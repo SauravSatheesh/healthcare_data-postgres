@@ -1,7 +1,7 @@
 # healthcare_data-postgres
 
 ## Getting Started
-- Create a dotenv file , which exports your  jwtSecret of json web token.This file will be ignored by git so your  credentials will be kept safe when the app is deployed.
+- Create a dotenv file , which exports your  database configuration and jwtSecret of json web token.This file will be ignored by git so your  credentials will be kept safe when the app is deployed.
 
 - Since this project will hold both the client application and the server application there will be node modules in two different places. First run `npm install` on both client and server side to install all the dependencies.
 
